@@ -1,0 +1,48 @@
+<!--
+Descricao: Exercicio da aula 02 - Introdução básica ao HTML e CSS 
+nome_arquivo: Home.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Junio Henrique
+email_aluno: junio.henrique@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de cadastro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <h2>Criar Conta</h2>
+        <p>Já é um membro? <a href="#"> Login</a> </p>
+            <form>
+
+                <div class="form-group"> 
+                    <label for="name"> Nome completo:</label>
+                    <input type="name" id="name" name="name" required>
+                 </div>
+
+                 <div class="form-group"> 
+                    <label for="email"> Digite o email:</label>
+                    <input type="email" id="email" name="email" required>
+                 </div>
+
+                 <div class="form-group"> 
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                 </div>
+
+                 <div class="form-group"> 
+                    <label for="confirm password">Confirmar Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                 </div>
+                   
+                 <button type="submit">Criar</button>
+            </form>
+        </main>
+   
+</body>
+</html>
